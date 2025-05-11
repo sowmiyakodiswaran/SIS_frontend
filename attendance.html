@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Details</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+    <div class="navbar">
+        <a href="staff-dashboard.html">Dashboard</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="course.html">Course</a>
+        <a href="experience.html">Experience</a>
+        <a href="staff-details.html">Staff Details</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </div>
+      <div class="container">
+        <h2>Mark Attendance</h2>
+        <form>
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required />
+          </div>
+      
+          <div class="form-group">
+            <label>Student Roll Numbers:</label>
+            <textarea rows="5" placeholder="Enter roll numbers separated by commas..."></textarea>
+          </div>
+      
+          <button type="submit">Submit Attendance</button>
+        </form>
+      </div>
+      
+</body>
+</html>    

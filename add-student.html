@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Details</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+    <div class="navbar">
+        <a href="staff-dashboard.html">Dashboard</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="course.html">Course</a>
+        <a href="experience.html">Experience</a>
+        <a href="staff-details.html">Staff Details</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </div>
+      <div class="container">
+        <h2>Add New Student</h2>
+        <form>
+          <div class="form-group">
+            <label for="student-name">Name:</label>
+            <input type="text" id="student-name" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="roll-no">Roll Number:</label>
+            <input type="text" id="roll-no" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="department">Department:</label>
+            <input type="text" id="department" required>
+          </div>
+      
+          <button type="submit">Add Student</button>
+        </form>
+    </div>
+    <script src="login.js"></script> 
+          
+</body>
+
+</html>
+  

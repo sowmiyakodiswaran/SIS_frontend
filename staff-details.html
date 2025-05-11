@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Details</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+    <div class="navbar">
+        <a href="staff-dashboard.html">Dashboard</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="course.html">Course</a>
+        <a href="experience.html">Experience</a>
+        <a href="staff-details.html">Staff Details</a>
+        <a href="#" onclick="logout()">Logout</a>
+      </div>
+    <div class="container">
+        <h2>Staff Details</h2>
+      
+        <form id="staff-details-form">
+          <div class="form-group">
+            <label for="staff-name">Name:</label>
+            <input type="text" id="staff-name" value="Dr. Priya Sharma" disabled />
+          </div>
+          <div class="form-group">
+            <label for="staff-id">Staff ID:</label>
+            <input type="text" id="staff-id" value="STF0123" disabled />
+          </div>
+          <div class="form-group">
+            <label for="department">Department:</label>
+            <input type="text" id="department" value="Computer Science" disabled />
+          </div>
+          <div class="form-group">
+            <label for="designation">Designation:</label>
+            <input type="text" id="designation" value="Assistant Professor" disabled />
+          </div>
+          <!--<button type="button" onclick="enableEditing()">Edit</button>-->
+        </form>
+      </div>
+      <script src="login.js"></script>
+</body>
+
+</html>
+  
