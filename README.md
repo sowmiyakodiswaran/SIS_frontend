@@ -4,7 +4,7 @@ A front-end Student Information System (SIS) built using HTML and CSS, designed 
 
 A simple front-end Student Information System (SIS) built using HTML, CSS, and basic JavaScript. This project is designed to provide an interactive dashboard for managing and displaying student data in a clean, user-friendly interface.
 
-## 🔍 Features
+## Features
 
 - Clean and responsive layout
 - Dashboard with navigation bar
@@ -13,10 +13,10 @@ A simple front-end Student Information System (SIS) built using HTML, CSS, and b
 - Academic records and grades
 - Easy-to-modify HTML structure
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (optional enhancements)
+- JavaScript 
 
-## 📁 Folder Structure
+
